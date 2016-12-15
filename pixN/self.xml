@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- My Repos -->
+<!-- Minimal Device -->
+<project path="kernel/sony/msm" name="HaoZeke/kernel" revision="7.0-opt" remote="github" />
+<project path="device/sony/common" name="HaoZeke/device_sony_common" groups="device" remote="github" revision="7.0-opt" />
+<project path="device/sony/kitakami" name="HaoZeke/device_sony_kitakami" groups="device" remote="github" revision="7.0-opt" />
+<project path="device/sony/sumire" name="HaoZeke/device_sony_sumire" groups="device" remote="github" revision="7.0-opt" />
+
+<!--
+<project path="frameworks/base" name="HaoZeke/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.0-opt" />
+<project path="frameworks/native" name="HaoZeke/frameworks_native" remote="github" revision="7.0-opt" />
+
+<project path="packages/apps/Settings" name="HaoZeke/packages_apps_Settings" groups="pdk-fs" remote="github" revision="7.0-opt" />
+
+<project path="system/sepolicy" name="HaoZeke/system_sepolicy" remote="github" revision="7.0-opt" />
+ -->
+<!--
+
+<project path="bionic" name="HaoZeke/bionic" groups="pdk" remote="github" revision="7.0-opt" />
+<project path="art" name="HaoZeke/art" remote="github" revision="7.0-opt" />
+<project path="libcore" name="HaoZeke/libcore" remote="github" revision="7.0-opt" />
+<project path="frameworks/rs" name="HaoZeke/frameworks_rs" remote="github" revision="7.0-opt" />
+<project path="frameworks/support" name="HaoZeke/frameworks_support" remote="github" revision="7.0-opt" />
+<project path="system/extras" name="HaoZeke/system_extras" remote="github" revision="7.0-opt" />
+
+
+<project path="system/core" name="HaoZeke/system_core" remote="github" revision="7.0-opt" />-->
+
+
+<!-- <project path="build" name="HaoZeke/build" groups="pdk" remote="github" revision="7.0-opt" > 
+  <copyfile src="core/root.mk" dest="Makefile" /> 
+</project> -->
+
+</manifest>

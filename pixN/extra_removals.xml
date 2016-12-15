@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	
+	<!-- Useless -->
+  <remove-project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/ivy" name="SonyAosp/device_sony_ivy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
+  <remove-project path="device/sony/karin" name="SonyAosp/device_sony_karin" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/karin_windy" name="SonyAosp/device_sony_karin_windy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/suzuran" name="SonyAosp/device_sony_suzuran" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/satsuki" name="SonyAosp/device_sony_satsuki" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/togari" name="SonyAosp/device_sony_togari" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/amami" name="SonyAosp/device_sony_amami" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="frameworks/av" name="SonyAosp/platform_frameworks_av" groups="pdk" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/sirius" name="SonyAosp/device_sony_sirius" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/castor" name="SonyAosp/device_sony_castor" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/castor_windy" name="SonyAosp/device_sony_castor_windy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/aries" name="SonyAosp/device_sony_aries" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/leo" name="SonyAosp/device_sony_leo" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.0" />
+  <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
+  <remove-project path="hardware/qcom/display" name="SonyAosp/platform_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="github" revision="android-7.0" />
+
+  <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
+  <remove-project path="packages/apps/TV" name="platform/packages/apps/TV" />
+  <remove-project name="platform/system/tools/aidl" />
+
+
+
+<!-- Android/External -->
+  <remove-project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
+  <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <remove-project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
+  <remove-project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <remove-project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <remove-project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <remove-project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
+  <remove-project path="external/v8" name="platform/external/v8" groups="pdk" />
+  <remove-project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+  <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+
+<!-- OmniROM/Vold 
+<remove-project path="system/vold" name="platform/system/vold" groups="pdk" /> -->
+
+<!-- TWRP -->
+<remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+
+<!-- My Repos -->
+<remove-project name="SonyAosp/kernel" />
+<remove-project name="SonyAosp/platform_frameworks_base"  />
+<remove-project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-7.0" />
+<remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+<remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
+
+
+<remove-project path="art" name="platform/art" groups="pdk" />
+
+<remove-project path="bionic" name="platform/bionic" groups="pdk" />
+
+<remove-project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+<remove-project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+<remove-project path="libcore" name="platform/libcore" groups="pdk" />
+<!-- -->
+<remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+
+<remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.0" />
+<remove-project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.0" />
+
+<remove-project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.0" />
+<remove-project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.0" />
+<remove-project path="device/sony/sumire" name="SonyAosp/device_sony_sumire" groups="device" remote="github" revision="android-7.0" />
+
+  <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
+
+	<!-- Flash-ROM 
+  <remove-project path="packages/providers/MediaProvider" name="SonyAosp/platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-7.0" />
+  <remove-project path="packages/providers/DownloadProvider" name="SonyAosp/platform_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-7.0" />  
+  <remove-project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" groups="pdk-fs" />
+  <remove-project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" groups="pdk-fs" />
+  <remove-project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
+  <remove-project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/providers/TelephonyProvider" name="platform/packages/providers/TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/services/Telecomm" name="platform/packages/services/Telecomm" groups="pdk-cw-fs,pdk-fs" />
+  <remove-project path="packages/services/Telephony" name="platform/packages/services/Telephony" groups="pdk-cw-fs,pdk-fs" />
+-->
+  <remove-project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" />
+  <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+
+</manifest>

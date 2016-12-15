@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+
+<!-- Android/External -->
+  <project path="external/jemalloc" name="AndroidExternal/jemalloc" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libxml2" name="AndroidExternal/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="ng" />
+  <project path="external/libjpeg-turbo" name="AndroidExternal/libjpeg-turbo" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libpng" name="AndroidExternal/libpng" groups="pdk" remote="github" revision="ng" />
+  <project path="external/sqlite" name="AndroidExternal/sqlite" groups="pdk" remote="github" revision="ng" />
+  <project path="external/freetype" name="AndroidExternal/freetype" groups="pdk" remote="github" revision="ng" />
+  <project path="external/fio" name="AndroidExternal/fio" groups="pdk-fs" remote="github" revision="ng" />
+  <project path="external/v8" name="AndroidExternal/v8" groups="pdk" remote="github" revision="ng" />
+  <project path="external/libvpx" name="AndroidExternal/libvpx" groups="pdk" remote="github" revision="ng" />
+  <project path="external/chromium-webview" name="AndroidExternal/chromium-webview" groups="pdk" remote="github" revision="ng" />
+
+<!-- QuantumDroid -->
+<project name="QuantumDroid/platform_system_tools_aidl" remote="github" revision="n7.0" path="system/tools/aidl" />
+
+<!-- Prebuilt Ninja -->
+  <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja" groups="linux,pdk,tradefed" remote="flash" revision="n7.0" />
+
+<!-- Prebuilt ccache -->
+<project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="flash" revision="n7.0" />
+
+  </manifest>

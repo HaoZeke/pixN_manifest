@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	
+
 	<!-- Useless -->
   <remove-project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.0" />
   <remove-project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.0" />
@@ -57,24 +57,22 @@
 
 <!-- My Repos -->
 <remove-project name="SonyAosp/kernel" />
+<!--
 <remove-project name="SonyAosp/platform_frameworks_base"  />
 <remove-project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-7.0" />
 <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
+-->
 <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
-
-
+<!-- 
 <remove-project path="art" name="platform/art" groups="pdk" />
-
 <remove-project path="bionic" name="platform/bionic" groups="pdk" />
-
+<remove-project path="libcore" name="platform/libcore" groups="pdk" />
+<remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.0" />
 <remove-project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
 <remove-project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
-<remove-project path="libcore" name="platform/libcore" groups="pdk" />
-<!-- -->
-<remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
-
-<remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.0" />
+ -->
 <remove-project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.0" />
+<remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
 
 <remove-project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.0" />
 <remove-project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.0" />

@@ -70,9 +70,10 @@
 <remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.0" />
 <remove-project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
 <remove-project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />
+<remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
+
  -->
 <remove-project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.0" />
-<remove-project path="system/extras" name="platform/system/extras" groups="pdk" />
 
 <remove-project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.0" />
 <remove-project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.0" />

@@ -16,9 +16,4 @@
 <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flash" revision="n7.0" />
 
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
-
-  <project path="build" name="build" groups="pdk" remote="flash" revision="n7.0" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
-
 </manifest>

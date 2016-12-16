@@ -12,6 +12,10 @@
 <project path="system/sepolicy" name="HaoZeke/system_sepolicy" remote="github" revision="7.0-opt" />
 <project path="frameworks/rs" name="HaoZeke/frameworks_rs" remote="github" revision="7.0-opt" />
 
+<project path="build" name="build" groups="pdk" remote="pixN" >
+  <copyfile src="core/root.mk" dest="Makefile" />
+</project>
+
 <!--
 <project path="frameworks/base" name="HaoZeke/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.0-opt" />
 <project path="frameworks/native" name="HaoZeke/frameworks_native" remote="github" revision="7.0-opt" />

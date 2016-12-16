@@ -9,19 +9,26 @@
 <project path="device/sony/sumire" name="HaoZeke/device_sony_sumire" groups="device" remote="github" revision="7.0-opt" />
 
 
-<project path="system/sepolicy" name="HaoZeke/system_sepolicy" remote="github" revision="7.0-opt" />
 <project path="frameworks/rs" name="HaoZeke/frameworks_rs" remote="github" revision="7.0-opt" />
 
 <project path="build" name="build" groups="pdk" remote="pixN" >
   <copyfile src="core/root.mk" dest="Makefile" />
 </project>
 
-<project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixN" revision="n" groups="pdk-cw-fs,pdk-fs" />
-
+<project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixN" groups="pdk-cw-fs,pdk-fs" />
+<project path="packages/apps/Phone" name="packages_apps_Contacts" remote="pixN" groups="pdk-fs" />
+<project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="pixN" groups="pdk-fs" />
+<project path="frameworks/native" name="frameworks_native" remote="pixN" groups="pdk" />
+<project path="system/sepolicy" name="system_sepolicy" remote="pixN" />
+<project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="pixN" />
+<project path="external/libjpeg-turbo" name="libjpeg-turbo" groups="pdk" remote="pixN" />
+<project path="external/llvm" name="external_llvm" remote="pixN" groups="pdk" />
+<project path="external/clang" name="external_clang" remote="pixN" groups="pdk" />
+<project path="external/skia" name="external_skia" remote="pixN" groups="pdk,qcom_msm8x26" />
+<project path="external/pdfium" name="external_pdfium" remote="pixN" groups="pdk" />
 
 <!--
 <project path="frameworks/base" name="HaoZeke/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.0-opt" />
-<project path="frameworks/native" name="HaoZeke/frameworks_native" remote="github" revision="7.0-opt" />
 
 <project path="packages/apps/Settings" name="HaoZeke/packages_apps_Settings" groups="pdk-fs" remote="github" revision="7.0-opt" />
 
@@ -36,10 +43,5 @@
 
 
 <project path="system/core" name="HaoZeke/system_core" remote="github" revision="7.0-opt" />-->
-
-
-<!-- <project path="build" name="HaoZeke/build" groups="pdk" remote="github" revision="7.0-opt" > 
-  <copyfile src="core/root.mk" dest="Makefile" /> 
-</project> -->
 
 </manifest>

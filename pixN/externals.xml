@@ -5,7 +5,6 @@
 <!-- Android/External -->
   <project path="external/jemalloc" name="AndroidExternal/jemalloc" groups="pdk" remote="github" revision="ng" />
   <project path="external/libxml2" name="AndroidExternal/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" remote="github" revision="ng" />
-  <project path="external/libjpeg-turbo" name="AndroidExternal/libjpeg-turbo" groups="pdk" remote="github" revision="ng" />
   <project path="external/libpng" name="AndroidExternal/libpng" groups="pdk" remote="github" revision="ng" />
   <project path="external/sqlite" name="AndroidExternal/sqlite" groups="pdk" remote="github" revision="ng" />
   <project path="external/freetype" name="AndroidExternal/freetype" groups="pdk" remote="github" revision="ng" />

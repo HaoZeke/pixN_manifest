@@ -59,6 +59,8 @@
 -->
 <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
 <remove-project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
+<remove-project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
+
 <!-- 
 <remove-project path="art" name="platform/art" groups="pdk" />
 <remove-project path="bionic" name="platform/bionic" groups="pdk" />

@@ -10,6 +10,7 @@
 
 
 <project path="system/sepolicy" name="HaoZeke/system_sepolicy" remote="github" revision="7.0-opt" />
+<project path="frameworks/rs" name="HaoZeke/frameworks_rs" remote="github" revision="7.0-opt" />
 
 <!--
 <project path="frameworks/base" name="HaoZeke/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.0-opt" />
@@ -23,7 +24,6 @@
 <project path="bionic" name="HaoZeke/bionic" groups="pdk" remote="github" revision="7.0-opt" />
 <project path="art" name="HaoZeke/art" remote="github" revision="7.0-opt" />
 <project path="libcore" name="HaoZeke/libcore" remote="github" revision="7.0-opt" />
-<project path="frameworks/rs" name="HaoZeke/frameworks_rs" remote="github" revision="7.0-opt" />
 <project path="frameworks/support" name="HaoZeke/frameworks_support" remote="github" revision="7.0-opt" />
 <project path="system/extras" name="HaoZeke/system_extras" remote="github" revision="7.0-opt" />
 

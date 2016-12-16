@@ -63,7 +63,6 @@
 <remove-project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
 
 <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
-<remove-project path="external/llvm" name="platform/external/llvm" groups="pdk" />
 <remove-project path="external/clang" name="platform/external/clang" groups="pdk" />
 <remove-project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
 <remove-project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />

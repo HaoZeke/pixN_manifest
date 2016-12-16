@@ -20,7 +20,6 @@
 <project path="frameworks/native" name="frameworks_native" remote="pixN" groups="pdk" />
 <project path="system/sepolicy" name="system_sepolicy" remote="pixN" />
 <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="pixN" />
-<project path="external/llvm" name="external_llvm" remote="pixN" groups="pdk" />
 <project path="external/clang" name="external_clang" remote="pixN" groups="pdk" />
 <project path="external/skia" name="external_skia" remote="pixN" groups="pdk,qcom_msm8x26" />
 <project path="external/pdfium" name="external_pdfium" remote="pixN" groups="pdk" />

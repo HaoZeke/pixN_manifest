@@ -12,8 +12,10 @@
 <project path="bootable/recovery" name="omnirom/android_bootable_recovery" groups="pdk" remote="github" revision="android-7.0" />
 <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-7.0" /> 
 
+<!--
 <project path="external/DUtils" name="external_DUtils" remote="flash" revision="n7.0" />
 <project path="packages/apps/DUI" name="packages_apps_DUI" remote="flash" revision="n7.0" />
+-->
 
 <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-14.0" />
 </manifest>

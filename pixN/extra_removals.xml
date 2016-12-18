@@ -65,10 +65,10 @@
 <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
 <remove-project path="external/skia" name="platform/external/skia" groups="pdk,qcom_msm8x26" />
 <remove-project path="external/pdfium" name="platform/external/pdfium" groups="pdk" />
+<remove-project path="bionic" name="platform/bionic" groups="pdk" />
 
 <!-- 
 <remove-project path="art" name="platform/art" groups="pdk" />
-<remove-project path="bionic" name="platform/bionic" groups="pdk" />
 <remove-project path="libcore" name="platform/libcore" groups="pdk" />
 <remove-project path="system/core" name="SonyAosp/platform_system_core" groups="pdk" remote="github" revision="android-7.0" />
 <remove-project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs,pdk-fs" />

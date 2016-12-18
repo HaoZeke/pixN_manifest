@@ -25,6 +25,8 @@
 <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="pixN" groups="pdk-fs" />
 <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="pixN" />
 <project path="vendor/addons" name="vendor_addons" groups="device" remote="pixN" />
+<project path="external/pdfium" name="external_pdfium" remote="pixN" />
+<project path="bionic" name="bionic" groups="pdk" remote="pixN" />
 
 <!--
 <project path="frameworks/base" name="HaoZeke/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="7.0-opt" />
@@ -35,7 +37,6 @@
  -->
 <!--
 
-<project path="bionic" name="HaoZeke/bionic" groups="pdk" remote="github" revision="7.0-opt" />
 <project path="art" name="HaoZeke/art" remote="github" revision="7.0-opt" />
 <project path="libcore" name="HaoZeke/libcore" remote="github" revision="7.0-opt" />
 <project path="frameworks/support" name="HaoZeke/frameworks_support" remote="github" revision="7.0-opt" />

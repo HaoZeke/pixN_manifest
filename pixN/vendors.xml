@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-	<project path="vendor/cardinal" name="vendor_cardinal" remote="crd" /> 
-	<project path="vendor/flash" name="vendor_flash" remote="flash" revision="n7.0" />
+	<!--<project path="vendor/cardinal" name="vendor_cardinal" remote="crd" /> 
+	<project path="vendor/flash" name="vendor_flash" remote="flash" revision="n7.0" /> -->
 
 </manifest>

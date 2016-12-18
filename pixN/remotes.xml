@@ -15,5 +15,8 @@
   <remote name="flash"
            fetch="https://github.com/Flash-ROM/" />
 
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRoms/"
+        revision="noneone"/>
 
 </manifest>

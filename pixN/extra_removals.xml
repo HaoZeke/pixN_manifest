@@ -52,8 +52,8 @@
 <!-- TWRP -->
 <remove-project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
 
-<!-- My Repos 
-<remove-project name="SonyAosp/kernel" /> -->
+<!-- My Repos -->
+<remove-project name="SonyAosp/kernel" /> 
 <!--
 <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
 

@@ -12,7 +12,6 @@
   <remove-project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/rhine" name="SonyAosp/device_sony_rhine" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/togari" name="SonyAosp/device_sony_togari" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/amami" name="SonyAosp/device_sony_amami" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="android-7.1" />

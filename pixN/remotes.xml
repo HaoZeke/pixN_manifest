@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="bitbucket" 
+        fetch="https://bitbucket.org/" />
+
+  <remote  name="crd"
+           fetch="https://github.com/Cardinal-AOSP"
+       revision="n7" />
+
+  <remote  name="pixN"
+           fetch="https://github.com/PixN-ROM"
+       revision="7.0-opt" />
+
+  <remote name="flash"
+           fetch="https://github.com/Flash-ROM/" />
+
+  <remote  name="benzo"
+           fetch="https://github.com/BenzoRoms/"
+        revision="noneone"/>
+
+</manifest>

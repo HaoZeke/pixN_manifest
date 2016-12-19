@@ -547,5 +547,8 @@
   <include name="sonyaosp/sony.xml" />
   <include name="sonyaosp/aosp.xml" />
   <include name="sonyaosp/opengapps.xml" />
+  <include name="pixN/remotes.xml" />
+  <include name="pixN/extra_removals.xml" />
+  <include name="pixN/self.xml" />
 
 </manifest>

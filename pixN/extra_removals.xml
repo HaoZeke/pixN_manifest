@@ -4,25 +4,21 @@
 	<!-- Useless -->
   <remove-project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1" />
+
   <remove-project path="device/sony/ivy" name="SonyAosp/device_sony_ivy" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/karin" name="SonyAosp/device_sony_karin" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/karin_windy" name="SonyAosp/device_sony_karin_windy" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/suzuran" name="SonyAosp/device_sony_suzuran" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/satsuki" name="SonyAosp/device_sony_satsuki" groups="device" remote="github" revision="android-7.1" />
+
   <remove-project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.1" />
   <remove-project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/togari" name="SonyAosp/device_sony_togari" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/amami" name="SonyAosp/device_sony_amami" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/honami" name="SonyAosp/device_sony_honami" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/shinano" name="SonyAosp/device_sony_shinano" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/sirius" name="SonyAosp/device_sony_sirius" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/castor" name="SonyAosp/device_sony_castor" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/castor_windy" name="SonyAosp/device_sony_castor_windy" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/aries" name="SonyAosp/device_sony_aries" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/leo" name="SonyAosp/device_sony_leo" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/scorpion" name="SonyAosp/device_sony_scorpion" groups="device" remote="github" revision="android-7.1" />
-  <remove-project path="device/sony/scorpion_windy" name="SonyAosp/device_sony_scorpion_windy" groups="device" remote="github" revision="android-7.1" />
+
+  <remove-project path="device/sony/tone" name="SonyAosp/device_sony_tone" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/dora" name="SonyAosp/device_sony_dora" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/kagura" name="SonyAosp/device_sony_kagura" groups="device" remote="github" revision="android-7.1" />
+
   <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
 
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />

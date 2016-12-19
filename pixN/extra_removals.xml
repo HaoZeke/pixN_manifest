@@ -43,6 +43,9 @@
   <remove-project path="external/v8" name="platform/external/v8" groups="pdk" />
   <remove-project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <remove-project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" />
+<remove-project name="SonyAosp/platform_frameworks_base"  />
+<remove-project name="SonyAosp/platform_frameworks_av"  />
+<remove-project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-7.0" />
 
 <!-- OmniROM/Vold 
 <remove-project path="system/vold" name="platform/system/vold" groups="pdk" /> -->
@@ -53,8 +56,6 @@
 <!-- My Repos -->
 <remove-project name="SonyAosp/kernel" />
 <!--
-<remove-project name="SonyAosp/platform_frameworks_base"  />
-<remove-project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-7.0" />
 <remove-project path="frameworks/native" name="platform/frameworks/native" groups="pdk" />
 -->
 <remove-project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />

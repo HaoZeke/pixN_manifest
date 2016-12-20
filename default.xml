@@ -531,10 +531,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <include name="pixN/remove.xml" />
-  <include name="pixN/sony.xml" />
-  <include name="pixN/aosp.xml" />
-  <include name="pixN/opengapps.xml" />
+  <include name="sonyaosp/remove.xml" />
+  <include name="sonyaosp/sony.xml" />
+  <include name="sonyaosp/aosp.xml" />
+  <include name="sonyaosp/opengapps.xml" />
   <include name="pixN/extra_removals.xml" />
   <include name="pixN/remotes.xml" />
   <include name="pixN/externals.xml" />

@@ -19,7 +19,7 @@
 
 <project path="frameworks/rs" name="frameworks_rs" remote="pixN" />
 
-<project path="frameworks/native" name="frameworks_native" remote="pixN" groups="pdk" remote="7.0-opt" />
+<project path="frameworks/native" name="frameworks_native" remote="pixN" groups="pdk" revision="7.0-opt" />
 
 <project path="system/sepolicy" name="system_sepolicy" remote="pixN" />
 <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" groups="pdk" remote="pixN" />

@@ -37,6 +37,8 @@
 <remove-project name="SonyAosp/platform_frameworks_base"  />
 <remove-project name="SonyAosp/platform_frameworks_av"  />
 <remove-project path="packages/apps/Settings" name="SonyAosp/platform_packages_apps_Settings" groups="pdk-fs" remote="github" />
+<remove-project path="external/clang" name="platform/external/clang" groups="pdk" />
+
 <!-- Android/External -->
   <remove-project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
   <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />

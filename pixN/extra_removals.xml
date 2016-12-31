@@ -16,6 +16,7 @@
 
   <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
   <remove-project path="packages/apps/TV" name="platform/packages/apps/TV" />
+  <remove-project name="platform/system/tools/aidl" />
 
 <!-- My Repos -->
 <remove-project name="SonyAosp/kernel" />

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  
+  <!-- UBER\sdclang -->
+<project path="prebuilts/clang/linux-x86/host/sdclang-3.8" remote="github" name="Rashed97/android_prebuilts_clang_linux-x86_host_sdclang-3.8" revision="cm-14.0" />
+
+  <!-- Toolchains -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-6.x" name="aarch64-linux-android-6.x" remote="flash-gl" revision="n7.1.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.x" name="arm-eabi-6.x" remote="flash-gl" revision="n7.1.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-6.x" name="arm-linux-androideabi-6.x" remote="flash-gl" revision="n7.1.1" />
+  <project path="prebuilts/clang/host/linux-x86/3.9.1" name="clang_linux-x86_3.9.1" remote="flash-gl" revision="n7.1.1" />
+ <project path="prebuilts/clang/host/linux-x86/4.0.0" name="clang_linux-x86_4.0.0" remote="flash-gl" revision="n7.1.1" />
+
+  <!-- Other Prebuilts -->
+  <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="flash-gh" revision="n7.1.1" />
+  <project path="prebuilts/misc" name="prebuilts_misc" groups="pdk" remote="flash-gh" revision="n7.1.1" />
+  <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja" groups="linux,pdk,tradefed" remote="flash-gh" revision="n7.1.1" />
+  <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" remote="flash-gh" revision="n7.1.1"/>
+  
+
+</manifest>

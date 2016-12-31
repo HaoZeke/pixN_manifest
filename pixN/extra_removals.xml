@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!-- Useless -->
+  <remove-project path="device/sony/kanuti" name="SonyAosp/device_sony_kanuti" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/tulip" name="SonyAosp/device_sony_tulip" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/ivy" name="SonyAosp/device_sony_ivy" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/karin" name="SonyAosp/device_sony_karin" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/karin_windy" name="SonyAosp/device_sony_karin_windy" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/suzuran" name="SonyAosp/device_sony_suzuran" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/satsuki" name="SonyAosp/device_sony_satsuki" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/loire" name="SonyAosp/device_sony_loire" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/kugo" name="SonyAosp/device_sony_kugo" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="device/sony/suzu" name="SonyAosp/device_sony_suzu" groups="device" remote="github" revision="android-7.1" />
+  <remove-project path="packages/apps/Protips" name="platform/packages/apps/Protips" groups="pdk-fs" />
+
+  <remove-project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="generic_fs" />
+  <remove-project path="packages/apps/TV" name="platform/packages/apps/TV" />
+
+<!-- My Repos -->
+<remove-project name="SonyAosp/kernel" />
+ <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
+
+
+<!-- Android/External -->
+  <remove-project path="external/jemalloc" name="platform/external/jemalloc" groups="pdk" />
+  <remove-project path="external/libxml2" name="platform/external/libxml2" groups="pdk-cw-fs,pdk-fs,libxml2" />
+  <remove-project path="external/libjpeg-turbo" name="platform/external/libjpeg-turbo" groups="pdk" />
+  <remove-project path="external/libpng" name="platform/external/libpng" groups="pdk" />
+  <remove-project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <remove-project path="external/freetype" name="platform/external/freetype" groups="pdk" />
+  <remove-project path="external/fio" name="platform/external/fio" groups="pdk-fs" />
+  <remove-project path="external/v8" name="platform/external/v8" groups="pdk" />
+  <remove-project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
+
+  <!-- More Prebuilts -->
+  <remove-project path="prebuilts/ninja/linux-x86" name="platform/prebuilts/ninja/linux-x86" groups="linux,pdk,tradefed" />
+  <remove-project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
+  <remove-project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
+
+  <!-- Toolchains -->
+  <remove-project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" />
+  <remove-project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" />
+
+
+
+</manifest>

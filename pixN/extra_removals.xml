@@ -20,8 +20,6 @@
 
 <!-- My Repos -->
 <remove-project name="SonyAosp/kernel" />
- <project path="kernel/sony/msm" name="SonyAosp/kernel" groups="device" remote="github" revision="android-7.0" />
-
 <remove-project path="build" name="SonyAosp/platform_build" groups="pdk" remote="github" revision="android-7.0" />
 <remove-project path="device/sony/common" name="SonyAosp/device_sony_common" groups="device" remote="github" revision="android-7.0" />
 <remove-project path="device/sony/kitakami" name="SonyAosp/device_sony_kitakami" groups="device" remote="github" revision="android-7.0" />
